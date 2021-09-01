@@ -36,10 +36,8 @@
 </head>
 
 <body>
-
-  
-    @include('partials.header')
-    @yield('content')
+    @include('partials.navBO')
+    @yield('contentBO')
     @include('partials.footer')
     
 
